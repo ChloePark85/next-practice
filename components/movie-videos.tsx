@@ -1,5 +1,5 @@
 import { resolve } from "styled-jsx/css";
-import { URL } from "../app/(home)/page";
+import { URL } from "../app/constants";
 import styles from "../styles/movie-videos.module.css";
 
 async function getVideos(id: string) {
